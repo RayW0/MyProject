@@ -1,5 +1,6 @@
 import './App.css';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
+import axios from 'axios'
 
 
 function App() {
@@ -29,11 +30,22 @@ function App() {
         }, 250)
     }
   }
+  const createChatLog = (message) => {
+    let request = axios.get(`http://127.0.0.1:8000/create-chat-log?message=${message}`, {message: message})
+    return request
+  }
+
   const sendMessage = () => {
     let input = document.getElementById("input")
     let output = document.getElementById("output")
-    
     var contents = input.value
+    createChatLog(contents)
+    .then((res) => {
+      console.log(res.data.res)
+    })
+    .catch((err) => {
+      console.log(err)
+    })
     output.value += "\n"+"Я: "+ contents
     input.value = ''
   }
