@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>phone_1-svg</title>
+	<defs>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAALpQTFRFAAAApaWl9vb26enplJSUjo6O/////Pz8lJSUurq6jIyM5ubm09PT6Ojo9PT0rq6uy8vL2NjYgoKCn5+ft7e3hISE39/fp6enlZWVgYGB3t7e4+Pjg4ODi4uL0dHRg4ODnJyc19fXh4eHqKio8vLyoKCggoKCuLi4+vr65+fnioqKs7Oz1tbWsrKy7e3tioqKqKioi4uLmpqa9PT0iYmJ1dXV8fHxgICApKSkqKiohISEoaGhycnJioqKrKQ/fAAAAD50Uk5TALP//Xpf//983FD89P3/yO73FKPXIfq5fwr5+xdN8xmX9jO7/qQS2f/8StD2z/5IvEuQ/kP1/gSxuh+o7Ua1yLxNAAAApElEQVR4nJ3P1w7CMAwF0BDAZbRQVtmUsvfe4/9/izhCNMWWkPBDHu5RnBsh/pmYjCe4PAkAVoqBtAKQGQpZBLAp6BwcCjkNeQou5oUihRJCmWlVkQo8BkQVr9QYqDcUNFuMtHFZx2eki8uCHiN9lMFQiNF4Mp2ZMte/XCw9da7WpmwgHGdrym4fShB553D8wCna4HyRb7h+l7vdbRU/nkzv3/MCV7sKDsE67z0AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="0" y="0"/>
+</svg>
