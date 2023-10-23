@@ -32,7 +32,6 @@ img {
 }
 
 
-
 .title {
 	text-align: center;
 	margin-bottom: 50px;
@@ -536,7 +535,7 @@ nav .socialfooter {
 }
 
 .header-text p {
-	color: #fff;
+	color: #222121;
 	font-size: 16px;
 	margin: 25px auto;
 	width: 77%;
@@ -573,7 +572,7 @@ nav .socialfooter {
 }
 
 .header-text h1 {
-	color: rgb(255, 255, 255);
+	color: #ff00b3;
 	font-size: 55px;
 	font-weight: 500;
 	letter-spacing: 1.2px;
@@ -2373,7 +2372,7 @@ textarea.form-control {
 		margin: 23px 0;
 	}
 	.header-text h1 {
-		color: #fff;
+		color: #ff00b3;
 		font-size: 29px !important;
 		font-weight: 700;
 	}

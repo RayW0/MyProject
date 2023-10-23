@@ -2,6 +2,7 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios'
 import {ReactComponent as PhoneLogo} from './svg/phone_1-svg.svg'
+import {ReactComponent as header_img} from './svg/header2_2.jpg'
 
 
 function App() {
@@ -106,12 +107,12 @@ function App() {
                 <button onClick={() => sendMessage()} type="button" class="btn bg-primary align-items-center d-flex" style={{width: "auto", color: "aliceblue"}}>Отправить</button>
             </div>
         </div>
-
+		
 	<div id="preloader" class="loader-wrapper">
 		<div id="loading" class="loader"></div>
 	</div>
 	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-		<div class="container d-flex align-center">
+		<div class="container d-flex align-center" style={{justifyContent:'start'}}>
 
 			<div class="navbar-header" style={{width: "20%"}}>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -120,7 +121,7 @@ function App() {
 
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
+				<ul class="nav navbar-nav navbar-right" style={{display:'flex', flexDirection:'row', justifyContent:'start'}}>
 					<li> <a class="page-scroll" href="#home">Главная</a> </li>
 					<li> <a class="page-scroll" href="#about">О нас</a> </li>	
 					<li> <a class="page-scroll" href="#team">Мастера</a> </li>
@@ -135,7 +136,7 @@ function App() {
 	<header id="home" class="header">
 		<div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
 			<div class="carousel-inner">
-				<div class="item active" style={{backgroundImage: "url(assets/img/header2_2.jpg);",  backgroundRepeat: "no-repeat", backgroundPosition: "top", backgroundSize:"cover"}}>
+				<div class="item active" style={{backgroundImage:"url(assets/img/header2_2.jpg);", backgroundRepeat: "no-repeat", backgroundPosition: "top", backgroundSize:"cover"}}>
 					<div class="caption">
 						<div class="caption-outer">
 							<div class="header-text">
@@ -165,7 +166,6 @@ function App() {
 				</div>
 			</div>
 		</div>
-
 	</section>
 
 
