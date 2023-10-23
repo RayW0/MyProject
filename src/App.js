@@ -10,9 +10,10 @@ function App() {
 
   useEffect(() => {
     handleLog()
-    let chat_button = document.getElementById('popup');
-    chat_button.addEventListener('click', openForm);
+    // let chat_button = document.getElementById('popup');
+    // chat_button.addEventListener('click', openForm);
   })
+
   const openForm = () => {
     if (document.getElementById("block").style.display=="none"){
         document.getElementById("block").style.display = "block";
@@ -81,11 +82,10 @@ function App() {
   }
   return (
     <div className="App">
-
       
-<button id="popup" style={{zIndex: "1000000000000"}}>
+{/* <button id="popup" style={{zIndex: "1000000000000"}}>
             <img style={my_styles} src="img/phone_1.png" alt="phone" />
-        </button>
+        </button> */}
 
         <div id="block" style={{
               width:"20%", 
@@ -454,6 +454,8 @@ function App() {
 				</div>
 			</div>
 		</div>
+	<div id="disqus_thread"></div>
+
 	</section>
 	<footer class="section-padding footer">
 		<div class="container">
